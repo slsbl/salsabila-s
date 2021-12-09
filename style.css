@@ -5,7 +5,9 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* Navbar */
+
 nav {
   display: flex;
   background: #f4f3f3;
@@ -58,7 +60,9 @@ nav .right-side a {
   text-decoration: none;
 }
 
+
 /* Blog Form */
+
 .blog-form {
   padding: 50px 0;
   display: flex;
@@ -143,7 +147,9 @@ select {
   margin-left: auto;
 }
 
+
 /* Blog list */
+
 .blog .blog-list {
   margin-top: 80px;
   margin-bottom: 80px;
@@ -215,7 +221,9 @@ select {
   text-align: justify;
 }
 
+
 /* Blog Detail */
+
 .blog-detail {
   display: flex;
   justify-content: center;
@@ -252,4 +260,92 @@ select {
   font-size: 24px;
   line-height: 140%;
   text-align: justify;
+}
+
+
+/* Bagian Home and Contact */
+
+nav .left-side {
+  flex: 50%;
+  align-items: center;
+  display: flex;
+}
+
+nav .left-side {
+  padding-left: 90px;
+}
+
+nav .left-side ul {
+  display: inline;
+}
+
+nav .left-side ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+nav .left-side a {
+  text-decoration: none;
+  color: black;
+}
+
+nav .left-side .list-active {
+  color: rgb(243, 17, 17);
+}
+
+nav .right-side {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 90px;
+}
+
+nav .right-side a {
+  background-color: red;
+  text-decoration: 0;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
+
+
+/* CONTAINER CARD */
+
+
+/* MAksimal vh = 100 */
+
+.container-card {
+  display: flex;
+  height: 93vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-card-and-content {
+  display: flex;
+  width: 80%;
+}
+
+.card-personal {
+  flex: 40%;
+}
+
+.right-content {
+  flex: 60%;
+  padding-left: 20px;
+}
+
+.right-content p {
+  color: grey;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.container-ability {
+  display: flex;
+}
+
+.container-ability div {
+  padding-right: 20px;
 }
